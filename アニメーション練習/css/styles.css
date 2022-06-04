@@ -1,0 +1,23 @@
+body{
+   padding: 64px;
+}
+
+
+
+.loading{
+   width: 40px;
+   height: 40px;
+   border:8px solid #ccc;
+   border-right-color:  transparent;
+   border-radius: 50%;
+   animation:spin 0.8s infinite linear
+}
+
+@keyframes spin{
+   0%{
+      transform: none;
+   }
+   100%{
+      transform: rotate(720deg);
+   }
+}

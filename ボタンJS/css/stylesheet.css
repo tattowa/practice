@@ -1,0 +1,17 @@
+body{
+   background-color: #efefef;
+
+}
+
+#bottun{
+   width:200px;
+   height:200px;
+   background-color:hsl(358, 84%, 60%) ;
+   border-radius: 50%;
+   margin: auto;
+   text-align: center;
+   line-height: 200px;
+   color: white;
+   font-weight: bold;
+   font-size: 42px;
+}
